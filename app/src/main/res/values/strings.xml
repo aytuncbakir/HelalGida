@@ -1,0 +1,1613 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Halal Detect</string>
+
+
+    <string name="txt_message">Ürünün içindekiler kısmını okutunuz.E-Koduna göre helal olup olmadığı tespit edilecek.
+    </string>
+
+    <string name="kullanim_klavuzu">
+        <![CDATA[
+                Kullanım Klavuzu
+             ]]>
+    </string>
+
+
+
+    <string name="bilgilendirme">
+        <![CDATA[
+
+        <center><b> Uygulama Kullanımı ve Bilgilendirme </b></center><br><br>
+
+        <b>1-</b> Uygulama verileri üretici firmalara sorularak elde edilmiştir.<br><br>
+        <b>2-</b> Ürün Barkodu okutularak ürün hakkında bilgi edinebilirsiniz.<br><br>
+        <b>3-</b> Okutulan ürün sonrasında "ürün hakkında bilgi bulunamamıştır" uyarısı ürünün helal, haram ya da şüp
+        heli olduğuna dair herhangi bir bilgi uygulamada yok demektir. <br><br>
+        <b>4-</b> Barkod okutması sonrasında bilgi edinilemeyen ürünleri diğer kategorilerdeki uyarılara göre
+        haram olup olmadığını inceleyebilirsiniz.<br><br>
+        <b>5-</b> Ürün bulunamadığında okunan Barkod bilgisi sonuç olarak gösterilir.
+        Okunan barkodu ürün üzerindeki barkod ile karşılaştırın.Farklı olması durumunda ürünü tekrar okununuz.
+        <br><br>
+
+
+             ]]>
+    </string>
+
+
+
+    <string name="tum_ekodlari">
+        <![CDATA[
+                <center><b>Tüm E-Kodları </b></center><br><br>
+
+         <div>
+         <a id="mybutton" href="http://www.gidaraporu.com/katki-maddeleri-ozet-liste_g.htm" title="link to google.com">
+          <button style=" background: #47abd5;
+                      border-radius: 10px;
+                      border: 4px solid #97cfe7;
+                      padding: 10px 24px;
+                      text-align: center;
+                      text-decoration: none;
+                      display: inline-block;
+                      color: white;
+                      font-size: 16px;
+                      margin: 4px 2px;
+                      cursor: pointer;" >Tüm E-Kodlarını Görüntüle</button>
+         </a>
+        </div>
+
+        <br><br>
+             ]]>
+    </string>
+
+
+    <string name="biskuvi_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Bisküvilerde rastlanabilecek E-Kodları</b><br><br>
+
+          <font color="red">E127*, E132*, E150, E450a</font>, E500, E471*, E481*, E482*, margarin*, E170*
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+
+
+    <string name="cips_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Cipslerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E154*</font>, E471*, E475*, E481*, E482*, <font color="red">E635*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+
+
+    <string name="yumurta">
+
+        <![CDATA[
+
+
+        Kodu 3 olan yumurtalar alınmamalıdır. Yumurta kodları sağlıklıdan sağlıksıza doğru 0, 1, 2 ve 3  şeklindedir.
+
+
+          ]]>
+
+    </string>
+
+    <string name="haram_maddeler_tum_diller">
+
+        <![CDATA[
+            <b>HARAM OLAN MADDELER</b>
+        <br><br>
+
+        * Genelde ekmeklerde ve hazır paket gıdalarda bulunan
+        E471 ya da mono ya da dygliseride von spesiefettsauren (monogliserit yağ asitleri) içeren ürünler alınmamalıdır.
+        Ancak, von pflanzlichen Ursprung (Bitki kökenli) diye dipnot düşülmüş ise ve başkaca haram katkı maddesi içermiyorsa o ürün yenilebilir.
+        <br><br>
+        -Tierisch (Hayvansal)-(eläin)-(Animal) mayalı peynirler<br><br>
+        -Speck (domuz pastırması)-(Pekoni)-(Bacon) <br><br>
+        -Schmalz(domuz yağı)<br><br>
+         -Alkohol (Alkol)-(Alkoholi)-(Alcohol)<br><br>
+        -Rum (Bir alkol tür olan Rom)-(Rommi)-(Rum)<br><br>
+        -Weissweinextrakt (Beyaz şarap özü)-(Valkoviini uutetta)-(White wine extract)<br><br>
+        -Gelatine (Jelatin)-(Gelatiini)-(Gelatin)(Hayvansal mı Bitkisel mi olduğuna bakılmalı)<br><br>
+        -Alkolessig<br><br>
+        -Tierishes Lab (Hayvansal Maya) (Peynirde hayvansal maya kullanılmıyor)<br><br>
+        -Rindgelatine-sigir jelatini-beef gelatin-naudanlihaa liivate<br><br>
+        -Wine-Şarap-Viini-Wine<br><br>
+        -Emulgator <br>
+        -Enimole <br><br>
+        -Glycerol-Glyseroli-Gliserin <br><br>
+        -Glycine-Gilisin-Glysiini <br><br>
+        -Graise<br><br>
+        -Lausine <br><br>
+        -Osyrearin <br><br>
+        -Pepelin <br><br>
+        -Rennet-Peynir Mayası-Lab-Juoksete <br><br>
+        -Sipermacoti <br><br>
+        -Tierische Fette-Hayvansal Yağlar-Eläinrasvat-Animal fat <br><br>
+        -B,C,D, E-472
+
+          <br><br>
+        <br><br>
+
+          ]]>
+
+    </string>
+
+
+
+    <string name="isaretlerin_anlami_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Yıldız işaretleri ve renklerin anlamları</b><br><br>
+
+        İşaretsiz " siyah " E numaraları helal kabul edilen katkıları gösterir.<br><br>
+    " kırmızı " E numaraları sağlık için tehlikeli katkıları gösterir.<br><br>
+    " ** " işaretleri kesin hayvan (çoğunlukla domuz) kökenli katkıları gösterir.(haram)<br><br>
+    " * " Bitkisel veya hayvansal kökenli olabilir. Alkolle muamele edilmiş veya edilmemiş olabilir.
+    Bu sebeple (şüpheli) kabul edilen katkıları gösterir.<br><br>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+
+    <string name="sakiz_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Sakızlarda rastlanabilecek E-Kodları</b><br><br>
+
+
+
+            E101*,  <font color="red">E102*, E120**</font>, E141*,
+            <font color="red">E296, E320*</font>, E322*, E330,  <font color="red">E420, E421, E422*</font>,
+             E464, <font color="red">E950, E951*</font>, E965, fenilalinin, glukonatlar,  <font color="red">E210*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="cikolata_sekerleme_draje_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Çikolata, Şekerleme ve Drajelerde rastlanabilecek E-Kodları</b><br><br>
+
+
+             <font color="red">E120**, E122*, E132*, E150, E322*</font>,  <font color="red"> E432*, E433*</font>, E471*, E472*, E476*, E491*,
+             <font color="red">E492*, E493*, E494*, E495*</font>, E434*, E435*, E436*,  <font color="red">E173, E174, E175, E211*,
+             E212*, E213*, E270*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="dis_macunu_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Diş Macunlarında rastlanabilecek E-Kodları</b><br><br>
+
+
+
+             <p>Sodyum bikarbonat,  <font color="red">gliserin*</font>, Hidratlanmış slikat, sorbitol, tetrasodyum pirofosfat, PEG-6, PEG-32,
+              <font color="red">Sodyum laurilsülfat</font>, Aroma*, selüloz gum, <font color="red">Sodyum florid</font>, Sodyum sakkarin, cl77891, Cl58000,
+              Titanyum dioksit, kalsiyom glukonat, formaldehit, tri sodyum fosfat, dikalsiyum fosfat dihidrat, mono floro fosfat, E170*, E171</p>
+
+
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="dondurma_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Dondurmalarda rastlanabilecek E-Kodları</b><br><br>
+
+           <font color="red"> E110*,E128*</font>, E141*,  <font color="red">E441**</font>, E471*, E481*, <font color="red">E151</font>
+
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="ekmek_unlu_gida_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Ekmek ve unlu mamüllerde rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E110*, E132*, E142*</font>, E170*, <font color="red">E282</font>, E300,  <font color="red">E432*, E433*</font>, E434*,
+            E435*, E436*, E471*, E472*e, enzim karışımı*,  <font color="red">E160(b)*,E210*, E211*, E212*, E213*, E280, E281, E282, E283</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="gazoz_kola_renkli_icecek_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Gazoz, Kola ve Renkli içeceklerde rastlanabilecek E-Kodları</b><br><br>
+
+
+           <font color="red"> E102*</font>, <font color="red"> E107*</font>, <font color="red"> E128*</font>, <font color="red">E150</font>,  E202,
+           <font color="red"> E211*, E290</font>, E300, E330,E338, kafein
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="maya_kabartmatozu_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Maya, Kabartma Tozu ve Vanilyalarda rastlanabilecek E-Kodları</b><br><br>
+
+              <font color="red">  E450a*</font>, E500
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="hazir_corba_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Hazır Çorbalarda rastlanabilecek E-Kodları</b><br><br>
+
+              E100*,  <font color="red">E102*, E110*</font>, E141*,  <font color="red">E150</font>, E330, <font color="red">E412, E621*</font>,
+              malto dekstrin, peynir altı suyu*, <font color="red">E160(b)*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="hazir_kek_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Hazır Keklerde rastlanabilecek E-Kodları</b><br><br>
+
+            E123*, <font color="red">E142*, E151, E155*, E450a</font>, E500, E471*, E481*, E482*, margarin*, E160(a)*, E170*, E172,
+            <font color="red">E173</font>, E297
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="jole_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Jölelerde rastlanabilecek E-Kodları</b><br><br>
+
+
+         E100*, <font color="red">E122*</font>, E123*, E142*, <font color="red">E142*, E153*</font>, E297, E331,
+         <font color="red">E441**</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="kahve_kreması_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Kahve Kremalarında rastlanabilecek E-Kodları</b><br><br>
+
+                     E341*,E469, E471*, E472*
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="ketcap_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Ketçaplarda rastlanabilecek E-Kodları</b><br><br>
+
+
+            E202, <font color="red">E211*</font>, E300, <font color="red">E412*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="krem_santi_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Krem Şantilerde rastlanabilecek E-Kodları</b><br><br>
+
+                     E160*, <font color="red">E339*, E340, E407*, E433*</font>, E435*, E471*, E472*, E475*, E932
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="lokum_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Lokumlarda rastlanabilecek E-Kodları</b><br><br>
+
+           <font color="red">E102*, E110*, E124*, E132*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="margarin_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Margarinlerde rastlanabilecek E-Kodları</b><br><br>
+
+
+           E100*, E101*,  E160a*, E202,  <font color="red">E270*</font>, E322*, E330, <font color="red">E432*, E433*</font>, E434*,
+           E435*, E436*, E472b*, E472c*, E475, E476, E477, vitaminler*, E160(a)*,  <font color="red">E160(b)*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+
+    <string name="mayonez_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Mayonezlerde rastlanabilecek E-Kodları</b><br><br>
+
+
+             <font color="red">E432*, E433*</font>, E434*, E435*, E436*, E472c*, E472*e
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="misir_gevregi_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Mısır Gevreği ve Müslilerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E432*, E433*</font>, E434*, E435*, E436*, E472c*, E472*e
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="meyve_suyu_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Meyve Suyu ve Nektarlarda rastlanabilecek E-Kodları</b><br><br>
+
+                <font color="red">E128*</font>, E300, E330, E160(a)*,  <font color="red">E220, E221, E222, E223, E224,
+                E225, E228</font>, E242
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="pasta_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Pastalarda rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E110*, E127*, E432*, E433*</font>, E434*, E435*,
+                E436*, E441*, <font color="red">E450*</font>, E471*, E472*, E475*, E477*,
+                margarin*, E500, E172,  <font color="red"> E635*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="puding_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Pudinglerde rastlanabilecek E-Kodları</b><br><br>
+
+               <font color="red">E102*, E110*, E128*</font>, E160a*,<font color="red"> E407*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="konserve_tonbalik__ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Ton Balık ve Konserve Balıklarda rastlanabilecek E-Kodları</b><br><br>
+
+
+                <font color="red">E102*, E110*</font>,E410,
+                 <font color="red">E412</font>, E415, <font color="red">E621*</font>, E172
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="toz_meyve_icecekleri_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Toz meyve içeceklerinde rastlanabilecek E-Kodları</b><br><br>
+
+
+            E101*,  <font color="red">E102*, E110*, E128*, E129*</font>, E171, E330, E331, E341*, E375,  <font color="red">E414</font>,
+           E415, E440, E466, E500, E551, <font color="red">E950, E951*, E954</font>, maltodekstrin, folakin (folik asit)
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="tuz_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Tuzlarda rastlanabilecek E-Kodları</b><br><br>
+
+
+             <font color="red"> E514, E554</font>, potasyum iyodid, E170*
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="yogurt_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Yoğurtlarda rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E133*,E441**</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="peynir_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Peynirlerde rastlanabilecek E-Kodları</b><br><br>
+
+           E100*, E101*, <font color="red">E133*</font>, E141*,<font color="red">E160(b)*</font>,
+           E171, <font color="red">E210*, E235</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="salata_sosu_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Salata Soslarında rastlanabilecek E-Kodları</b><br><br>
+
+             E260, <font color="red">E261, E270*</font>,<font color="red">E621*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="dondurulmus_gida_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Dondurulmuş gıdalarda rastlanabilecek E-Kodları</b><br><br>
+
+                <font color="red">E621*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="recel_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Reçellerde rastlanabilecek E-Kodları</b><br><br>
+
+               <font color="red">E102*, E153*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="tatli_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Tatlılarda rastlanabilecek E-Kodları</b><br><br>
+
+
+          E100*,<font color="red"> E102*, E110*, E127*, E129*, E132*, E133*, E151</font>, E172,<font color="red"> E210*, E270*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="cerez_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Çerezlerde rastlanabilecek E-Kodları</b><br><br>
+
+           <font color="red">E102*, E110*, E127*, E160(b)*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="sehriye_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Şehriye ve makarnalarda rastlanabilecek E-Kodları</b><br><br>
+
+
+          <font color="red">E102*, E635*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="ruj_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Rujlarda rastlanabilecek E-Kodları</b><br><br>
+
+
+          <font color="red">E104*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="sac_bakim_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Saç bakım ürünlerinde rastlanabilecek E-Kodları</b><br><br>
+
+
+          <font color="red">E104*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="kolonya_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Kolonyalarda rastlanabilecek E-Kodları</b><br><br>
+
+
+          <font color="red">E104*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="ecza_urunleri_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Ecza ürünlerinde rastlanabilecek E-Kodları</b><br><br>
+
+          <font color="red">E104*, E129*</font>, E140*,  <font color="red">E160(b)*</font>, E171, <font color="red">E210*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="surup_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Şuruplarda rastlanabilecek E-Kodları</b><br><br>
+
+          <font color="red">E110*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="kozmetik_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Kozmetik ürünlerinde rastlanabilecek E-Kodları</b><br><br>
+
+                  <font color="red">E120**, E129*</font>, E140*, <font color="red">E210*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="sampuan_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Şampuanlarda  rastlanabilecek E-Kodları</b><br><br>
+
+                  <font color="red">E120**</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="kirmizi_elma_suyu_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Kırmızı elma suyunda  rastlanabilecek E-Kodları</b><br><br>
+
+                  <font color="red">E120**</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="marzipan_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Marzipanda  rastlanabilecek E-Kodları</b><br><br>
+
+                  <font color="red">E122*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="meyve_tatli_dolgular_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Meyve Tatlı dolgularda  rastlanabilecek E-Kodları</b><br><br>
+
+                 E123*
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="kiraz_visne_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Kiraz ve vişnede (Paketli, Konserve ve Pasta için kullanılan )  rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E127*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="meyve_aromali_yogurt_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Mevye aromalı yoğurtlarda rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E127*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="et_urunleri_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Et ürünlerinde (Sucuk, Salam, Sosis) rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E128*, E211*, E212*, E213*, E235, E249*, E252*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="marmelat_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Marmelatlarda rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E128*, E151</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="garnitur_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Garnitürlerde rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E129*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="icecek_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> İçeceklerde rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E129*, E133*, E151, E160(b)*, E220, E221, E222, E223, E224, E225, E228</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="tablet_kapsullu_urunler_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Tablet, kapsüllü ürünlerde rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E132*, E173</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="aromali_sutlu_icecekler_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Aromalı, sütlü içeceklerde rastlanabilecek E-Kodları</b><br><br>
+
+
+            <font color="red">E133*, E151</font>, E160(a)*,<font color="red"> E211*, E212*, E213*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="tereyag_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Tereyağlarda rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E133*</font>, E160(a)*,<font color="red">E160(b)*</font>
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="siviyag_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Sıvıyağlarda rastlanabilecek E-Kodları</b><br><br>
+
+            E140*
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="soslar_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Soslarda rastlanabilecek E-Kodları</b><br><br>
+
+           E141*, <font color="red">E142*, E151</font>, E171, E260, <font color="red">E261</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="konserve_bezelye_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Konserve Bezelyelerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E142*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="istiridye_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> İstiridyelerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E150</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="tursu_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Turşularda rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E150, E261,</font> E260
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="soya_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Soya içeren ürünlerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E150</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="konserve_meyve_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Konserve meyvelerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E150</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="hardal_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Hardallarda rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E151</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="meyan_koku_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Meyan Kökünde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E153*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="kurutulmus_balik_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Kurutulmuş, Tütsülenmiş Balıklarda rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E154*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="jambon_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Jambonlarda (Dana, Kuzu) rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E154*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="tavuk_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Tavuk ve sair kümes hayvanı ürünlerinde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red"> E160(c)*,E252* </font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="dilimlenmiş_peynir_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Dilimlenmiş peynirde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E160(c)*</font>, E160(e)*
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="jelatin_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Jelatinlerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E160(c)*</font>,E160(d)*, E160(e)*, E160(e)*
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="krema_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Kremalarda rastlanabilecek E-Kodları</b><br><br>
+
+         E171
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="sebze_konservesi_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Sebze konservelerinde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E621*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="cesni_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Çeşnilerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E621*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="dondurulmus_mandira_urunleri_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Dondurulmuş mandıra ürünlerinde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E210*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="ilac_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> İlaç (Ağız yoluyla alınan birçok ilaçta) rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E211*, E212*, E213*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="kurutulmus_meyve_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Kurutulmuş meyvelerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E220, E221, E222, E223, E224, E225, E228</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="sirke_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Sirkelerde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E220, E221, E222, E223, E224, E225, E228</font>, E260
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="patates_urunlerinde_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Patates ürünlerinde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E220, E221, E222, E223, E224, E225, E228</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="kola_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Patates ürünlerinde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E128*, E150</font>, E338, Kafein
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+    <string name="hafif_icecekler_ekodlari" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b> Patates ürünlerinde rastlanabilecek E-Kodları</b><br><br>
+
+            <font color="red">E107*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+    <string name="xxx" tools:ignore="TypographyOther">
+
+        <![CDATA[
+         <html>
+        <body>
+
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+
+    <string name="bebek_mamasi_ekodlari">
+
+        <![CDATA[
+         <html>
+        <body>
+        <b>Bebek Mamalarında rastlanabilecek E-Kodları</b><br><br>
+
+        E332, E333,  <font color="red">E508</font>, whey*(peynir altı suyu),
+        sukroz,laktoz,kalsiyum pantotenat,taurin, inositol*, vitaminler*, <font color="red">E270*</font>
+
+        <br><br>
+     </body>
+
+    </html>
+
+          ]]>
+
+    </string>
+
+
+
+</resources>

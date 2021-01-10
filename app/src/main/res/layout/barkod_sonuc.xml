@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="225dp"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+    <TextView
+            android:id="@+id/baslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="TARAMA SONUCU" />
+
+        <TextView
+            android:id="@+id/urun_adi_sonuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="xxxxxxxxxxx" />
+
+
+
+        <ImageView
+            android:id="@+id/urun_durum_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:src="@drawable/info"
+            android:contentDescription="TODO"/>
+
+
+       <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+
+
+    <Button
+            android:id="@+id/buton_urun_goruntule"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="ÜRÜNÜ GÖSTER" />
+
+    <Button
+                   android:id="@+id/buton_kapat"
+                   android:layout_width="120dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:textSize="12sp"
+                   android:textStyle="bold"
+                   android:layout_gravity="center"
+                   android:layout_margin="4dp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:text="TAMAM" />
+
+       </LinearLayout>
+
+</LinearLayout>
